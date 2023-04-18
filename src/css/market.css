@@ -1,0 +1,84 @@
+#search{
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+}
+
+#carteMada, #region{
+    border-right: #00D471 solid 2px;
+    margin: 0px 0px 20px 0px;
+}
+
+#Mada{
+    width: auto;
+    height: 400px;
+}
+
+.cartes{
+    margin: 20px 0px;
+}
+
+.card{
+    margin:0px 10px;
+    padding: 10px 30px;
+}
+
+.card div{
+    margin-top: -20px;
+}
+
+.image img{
+    padding: 10px 0px;
+    width: 100px;
+    height :100px;
+}
+
+.boutton button {
+    background-color: #00D471;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+#en-tete div{
+    border-bottom: #00D471 solid 2px;
+}
+
+.userPic{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Location{
+    width: 50px;
+    height : 50px;
+}
+
+
+#Antsiranana{
+    color: #FE9449;
+}
+
+#Mahajanga{
+    color: #9FC900;
+}
+
+#Toamasina{
+    color: #D15153;
+}
+
+#Antananarivo{
+    color: #FCD124;
+}
+
+ #Fianarantsoa{
+    color: #00D471;
+ }
+
+#Toliara{
+    color:#00552D;
+}
+
+#region p{
+    font-size: 11px;
+}

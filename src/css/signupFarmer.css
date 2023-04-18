@@ -1,0 +1,33 @@
+#formRegister{
+    padding: 20px 50px;
+    margin: 0px 100px;
+    background-color: rgba(0, 0, 0, 0.925);
+    position : absolute;
+    width: 800px;
+    z-index: 1000;
+    /* display: none; */
+}
+
+#formRegister h5 {
+    border-bottom: #00D471 solid 1px;
+}
+
+#formRegister .close-btn{
+    position : absolute;
+    right: 10px;
+    top: -10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#formRegister input {
+    background-color: rgba(99, 99, 99, 0.452);
+    margin-top: -50px;
+    width: 100%;
+    border: none;
+}
+
+#formRegister .btn {
+    background-color: #00D471;
+
+}
