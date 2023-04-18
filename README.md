@@ -1,5 +1,5 @@
 # BioTechJS
-Live URL :
+Live URL : https://lucas-hr.github.io/BioTechJS/
 
 Group members :
 * N°08 - RABEANTOANDRO Mirantsoa Adrianna
