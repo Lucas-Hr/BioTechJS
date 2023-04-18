@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BioTechJS/static/css/main.70b916c1.css",
-    "main.js": "/BioTechJS/static/js/main.23d6b13e.js",
+    "main.js": "/BioTechJS/static/js/main.048db9b1.js",
     "static/js/787.9b1cc2a8.chunk.js": "/BioTechJS/static/js/787.9b1cc2a8.chunk.js",
     "static/media/fruits.png": "/BioTechJS/static/media/fruits.4a7ee4912084f150cd7e.png",
     "static/media/FarmerUser.png": "/BioTechJS/static/media/FarmerUser.d6a7856e81804e0c1fa9.png",
@@ -17,11 +17,11 @@
     "static/media/Adam.png": "/BioTechJS/static/media/Adam.4afc5f425bb56e0bce84.png",
     "index.html": "/BioTechJS/index.html",
     "main.70b916c1.css.map": "/BioTechJS/static/css/main.70b916c1.css.map",
-    "main.23d6b13e.js.map": "/BioTechJS/static/js/main.23d6b13e.js.map",
+    "main.048db9b1.js.map": "/BioTechJS/static/js/main.048db9b1.js.map",
     "787.9b1cc2a8.chunk.js.map": "/BioTechJS/static/js/787.9b1cc2a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70b916c1.css",
-    "static/js/main.23d6b13e.js"
+    "static/js/main.048db9b1.js"
   ]
 }
