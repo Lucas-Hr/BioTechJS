@@ -9,7 +9,7 @@ import { basename } from 'node:path/win32';
 // import { FarmerRegister } from './pages/farmerRegister'
 // import { Login } from './pages/login'
 
-
+//ctest_1 pull de jo
 function App() {  
   return (
     <div className='corps'>
