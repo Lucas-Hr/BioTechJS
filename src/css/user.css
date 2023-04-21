@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .userDetails{
     display: inline-block;
     width: auto;
@@ -15,4 +16,23 @@
 #FarmerUser{
     width: 100%;
     height: 300px;
+=======
+.userDetails{
+    display: inline-block;
+    width: auto;
+    border-bottom: #00D471 solid 2px;
+}
+
+.userDetails ~ div {
+    border-bottom: rgb(226, 226, 226) solid 1px;
+}
+
+#rate{
+    background-color: #00D471;
+}
+
+#FarmerUser{
+    width: 100%;
+    height: 300px;
+>>>>>>> d3124d65f8c66ceabfe96f3963571411dc4649a9
 }
