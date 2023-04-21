@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 #formLogin{
     width: 400px;
     padding: 20px 50px;
@@ -42,4 +44,96 @@
 #formLogin .btn {
     background-color: #00D471;
 
+=======
+#formLogin{
+    width: 400px;
+    padding: 20px 50px;
+    margin: 0px 300px;
+    background-color: rgba(0, 0, 0, 0.925);
+    position: absolute;
+    z-index: 1000;
+    /* display: none; */
+}
+
+#formLogin h5 {
+    border-bottom: #00D471 solid 1px;
+}
+
+#formLogin .close-btn{
+    position : absolute;
+    right: 10px;
+    top: -10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#formLogin input {
+    padding: 10px 0;
+    background-color: rgba(99, 99, 99, 0.452);
+    margin-top: -50px;
+    width: 100%;
+    border: none;
+}
+
+/* #formLogin input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+} */
+
+#formLogin input::placeholder {
+    color: white;
+}
+
+
+
+#formLogin .btn {
+    background-color: #00D471;
+
+>>>>>>> d3124d65f8c66ceabfe96f3963571411dc4649a9
+=======
+#formLogin{
+    width: 400px;
+    padding: 20px 50px;
+    margin: 0px 300px;
+    background-color: rgba(0, 0, 0, 0.925);
+    position: absolute;
+    z-index: 1000;
+    /* display: none; */
+}
+
+#formLogin h5 {
+    border-bottom: #00D471 solid 1px;
+}
+
+#formLogin .close-btn{
+    position : absolute;
+    right: 10px;
+    top: -10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#formLogin input {
+    padding: 10px 0;
+    background-color: rgba(99, 99, 99, 0.452);
+    margin-top: -50px;
+    width: 100%;
+    border: none;
+}
+
+/* #formLogin input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+} */
+
+#formLogin input::placeholder {
+    color: white;
+}
+
+
+
+#formLogin .btn {
+    background-color: #00D471;
+
+>>>>>>> 9c0eb3c84cc1723aeb4b7f574eb7440a412bf58f
 }
