@@ -1,0 +1,27 @@
+nav{
+    background-color: #fff;
+}
+
+
+.navbar-brand span{
+    color: #00D471;
+}
+
+.navbar-brand{
+    color: black;
+}
+
+
+.nav-item{
+    padding : 0px 40px;
+}
+
+.nav-item .nav-link{
+    color: #000;
+}
+
+#user{
+    background-color: #00d471;
+    padding : 0px 40px;
+    border-radius: 20px;
+}
