@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './../css/bootstrap.css'
 import './../css/user.css'
@@ -97,4 +98,5 @@ export const User = () => {
             </div>
         </section>
     );
-}
+
+    }
