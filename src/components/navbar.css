@@ -1,7 +1,7 @@
 nav{
     background-color: #fff;
+    transition: 0.6s;
 }
-
 
 .navbar-brand span{
     color: #00D471;
@@ -13,11 +13,8 @@ nav{
 
 
 .nav-item{
+    border-radius: 20px;
     padding : 0px 40px;
-}
-
-.nav-item .nav-link{
-    color: #000;
 }
 
 #user{
@@ -25,3 +22,103 @@ nav{
     padding : 0px 40px;
     border-radius: 20px;
 }
+
+.nav-item:hover {
+    background-color: #00d471;
+    color: white;
+    transition: 0.6s;
+}
+
+
+.nav-item .nav-link{
+    color: #000;
+    border-radius: 20px;
+}
+
+header .nav-btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: none;
+    font-size: 1.8rem;
+}
+
+#top {
+    margin: 0px 150px;
+}
+
+@media only screen and (max-width: 768px){
+    header .nav-btn {
+        display: block;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: #00d471;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav_close_btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    .nav-item {
+        font-size: 1.5rem;
+    }
+
+    #user{
+        background-color: white;
+        color: green;
+    }
+    
+ }
+
+ /* @media only screen and (max-width: 1024px) {
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: #00d471;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav_close_btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    .nav-item {
+        font-size: 1.5rem;
+    }
+ } */

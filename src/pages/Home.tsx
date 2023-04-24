@@ -244,42 +244,52 @@ export const Home = () => {
             )}
             
 
-            <div className="row" id='home'> 
-                <div className="col-md-6">
-                    <div className='text-center text-light bg p-5'>
-                        <h1 className='font-weight-bold'>Welcome to our website!</h1>
-                        <p><span>BIO</span> is the website where you’ll deal the crops...<br/> 
-                        It’s about the deal between the <span>Malagasy farmers </span> 
-                        and the <span>Malagasy food retailer</span>.</p>
-                        <div className='d-flex justify-content-around'>
-                            <button className="btn text-light" id='login' onClick={toggleModalLogin}>Login</button>
-                            <button id='signup' onClick={toggleModalChoose}>Sign up</button>
+            <div id='home'> 
+                <div className="row">
+                    <div className="col-md-6 col-sm-12">
+                        <div className='text-center text-light bg p-5'>
+                            <h1 className='font-weight-bold'>Welcome to our website!</h1>
+                            <p><span>BIO</span> is the website where you’ll deal the crops...<br/> 
+                            It’s about the deal between the <span>Malagasy farmers </span> 
+                            and the <span>Malagasy food retailer</span>.</p>
+                            <div className='d-flex justify-content-around'>
+                                <button className="btn text-light" id='login' onClick={toggleModalLogin}>Login</button>
+                                <button id='signup' onClick={toggleModalChoose}>Sign up</button>
+                            </div>
                         </div>
-                    </div>
-                    
-                </div>
-                <div className="col-md-6">
-                    <img src={FarmerPic} alt="" id="Farmerpic"/>
-                </div>
-                <div className='mt-4 d-flex justify-content-around product w-100'>
-                    <div className='vert'>
-                        <h5 className='text-light text-center'>Fresh vegetables</h5>
-                        <img src={Vegetables} alt="" id='vegetables'/>
                         
                     </div>
-                    <div className='vertClair'>
-                        <h5 className='text-center'>Fresh fruits</h5>
-                        <img src={Fruits} alt="" id="fruits" />
-                    </div>
-                    <div className='vert'>
-                        <h5 className='text-light text-center'>Legumes</h5>
-                        <img src={Sec} alt="" id="sec" />
-                    </div>
-                    <div className='vertClair'>
-                        <h5 className='text-center'>Cereals</h5>
-                        <img src={Cereals} alt="" id="cereal" />
+                    <div className="col-md-6 col-sm-12">
+                        <img src={FarmerPic} alt="" id="Farmerpic"/>
                     </div>
                 </div>
+                <div className="mt-4 d-flex justify-content-around product w-100 row">
+                        <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
+                            <div className='vert'>
+                                <h5 className='text-light text-center'>Fresh vegetables</h5>
+                                <img src={Vegetables} alt="" id='vegetables'/>   
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
+                            <div className='vertClair'>
+                                <h5 className='text-center'>Fresh fruits</h5>
+                                <img src={Fruits} alt="" id="fruits" />
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
+                            <div className='vert'>
+                                <h5 className='text-light text-center'>Legumes</h5>
+                                <img src={Sec} alt="" id="sec" />
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
+                            <div className='vertClair'>
+                                <h5 className='text-center'>Cereals</h5>
+                                <img src={Cereals} alt="" id="cereal" />
+                            </div>
+                        </div>                       
+                </div>
+                
             </div>
         </div>
         
